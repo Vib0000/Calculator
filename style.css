@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+    /* 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+}
+
+body {
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.container {
+    height: 70vh;
+    width: 350px;
+    border: 4px solid black;
+    border-radius: 25px;
+    position: relative;
+    top: 50px;
+    left: 38%;
+    background-color: rgb(15, 1, 33);
+}
+
+.calculation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+
+    .calculation input[type=number]::-webkit-inner-spin-button,
+    .calculation input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+}
+
+.calculation input {
+    text-align: right;
+    width: 320px;
+    height: 80px;
+    background-color: rgb(245, 245, 244);
+    font-size: 3.2rem;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 25px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.r-1 {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.r-2 {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.r-3 {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.r-4 {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.r-5 {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sign {
+    font-weight: bold;
+    background-color: orange;
+    font-size: 15px;
+}
+
+.sign:hover {
+    background-color: greenyellow;
+}
+
+.digit {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.digit:hover {
+    background-color: rgb(189, 179, 179);
+}
+
+.mult {
+    font-size: 20px;
+}
+
+.div {
+    font-size: 20px;
+}
+
+.mod {
+    font-size: 20px;
+}

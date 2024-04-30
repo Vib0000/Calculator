@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculation">
+            <!-- Add id attribute to the number input field -->
+            <input type="number" id="calculationInput" placeholder="0">
+        </div>
+        <div class="r-1">
+            <div style="margin: 10px;" class="c-1">
+                <button class="sign">log</button>
+            </div>
+            <div style="margin: 10px;" class="c-2">
+                <button class="sign">x^3</button>
+            </div>
+            <div style="margin: 10px;" class="c-3">
+                <button class="sign">^</button>
+            </div>
+            <div style="margin: 10px;" class="c-4">
+                <button class="sign">(</button>
+            </div>
+            <div style="margin: 10px;" class="c-5">
+                <button class="sign">)</button>
+            </div>
+        </div>
+        <div class="r-2">
+            <div style="margin: 10px;" class="c-1">
+                <button class="digit">7</button>
+            </div>
+            <div style="margin: 10px;" class="c-2">
+                <button class="digit">8</button>
+            </div>
+            <div style="margin: 10px;" class="c-3">
+                <button class="digit">9</button>
+            </div>
+            <div style="margin: 10px;" class="c-4">
+                <button class="sign">DEL</button>
+            </div>
+            <div style="margin: 10px;" class="c-5">
+                <button class="sign">AC</button>
+            </div>
+
+        </div>
+        <div class="r-3">
+            <div style="margin: 10px;" class="c-1">
+                <button class="digit">4</button>
+            </div>
+            <div style="margin: 10px;" class="c-2">
+                <button class="digit">5</button>
+            </div>
+            <div style="margin: 10px;" class="c-3">
+                <button class="digit">6</button>
+            </div>
+            <div style="margin: 10px;" class="c-4">
+                <button class="sign mult">*</button>
+            </div>
+            <div style="margin: 10px;" class="c-5">
+                <button class="sign div">/</button>
+            </div>
+
+        </div>
+        <div class="r-4">
+            <div style="margin: 10px;" class="c-1">
+                <button class="digit ">1</button>
+            </div>
+            <div style="margin: 10px;" class="c-2">
+                <button class="digit ">2</button>
+            </div>
+            <div style="margin: 10px;" class="c-3">
+                <button class="digit">3</button>
+            </div>
+            <div style="margin: 10px;" class="c-4">
+                <button class="sign">+</button>
+            </div>
+            <div style="margin: 10px;" class="c-5">
+                <button class="sign">-</button>
+            </div>
+        </div>
+        <div class="r-5">
+            <div style="margin: 10px;" class="c-1">
+                <button class="digit">0</button>
+            </div>
+            <div style="margin: 10px;" class="c-2">
+                <button class="digit decimal">.</button> <!-- Added class "decimal" to the button -->
+            </div>
+            <div style="margin: 10px;" class="c-3">
+                <button class="sign">x^2</button>
+            </div>
+            <div style="margin: 10px;" class="c-4">
+                <button class="sign mod">%</button>
+            </div>
+            <div style="margin: 10px;" class="c-5">
+                <button class="sign equal">=</button>
+            </div>
+        </div>
+
+        <script src="calculator.js"></script>
+    </div>
+</body>
+
+</html>
